@@ -1,0 +1,41 @@
+.login-form {
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  place-content: center;
+  align-content: center;
+}
+
+.login-form-box {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-content: center;
+}
+
+.login-form-box-inside {
+  background-color: lightgrey;
+  padding: 5rem;
+  border-radius: 25px;
+}
+
+.login-container {
+  box-sizing: border-box;
+  background-image: url(//qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png);
+  width: 100%;
+  position: absolute;
+  min-height: 100%;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px inset;
+  transition-property: background-image;
+  transition-duration: 180ms;
+  transition-timing-function: ease-in-out;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12px;
+}

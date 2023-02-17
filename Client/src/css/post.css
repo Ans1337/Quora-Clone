@@ -1,0 +1,137 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  max-width: 700px;
+  box-shadow: 0px 5px 8px -9px solid rgab(0, 0, 0, 0.5);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info>h4 {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.info>h4:hover {
+  text-decoration: underline;
+}
+
+.info>small {
+  margin-left: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body>.question {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.question>.btn-answer {
+  margin-left: auto;
+  cursor: pointer;
+  padding: 7px;
+  background-color: #222;
+  outline: none;
+  border: none;
+  color: lightgray;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.btn-answer:hover {
+  color: #222;
+  background: lightgray;
+}
+
+.question>p:hover {
+  text-decoration: underline;
+}
+
+.body>.answer>p {
+  margin-bottom: 10px;
+}
+
+.body>img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.footer>.MuiSvgIcon-root {
+  color: gray;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.footer-action {
+  background-color: lightgray;
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 33px;
+}
+
+.footer-action>.MuiSvgIcon-root {
+  color: gray;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.footer-action>.MuiSvgIcon-root:hover {
+  color: rgb(0, 140, 255);
+  margin-right: 40px;
+}
+
+.footer-left {
+  margin-left: auto;
+}
+
+.footer-left>.MuiSvgIcon-root {
+  color: gray;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.answer-length {
+  padding: 8px 0px 0px 8px;
+  color: "rgba(0,0,0,0.5)";
+  font-size: "12px";
+  font-weight: "bold";
+  margin: "10px 0";
+}
